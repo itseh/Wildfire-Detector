@@ -30,7 +30,7 @@ void loop()
 {
   delay(2000);  // Wait for 2 seconds
 
-  BTSerial.write("Sensor 2 \n");  // Send a message via Bluetooth indicating sensor 2 is active
+  BTSerial.write("Sensor 1 \n");  // Send a message via Bluetooth indicating sensor 1 is active
   int sensorReading  = analogRead(A0);  // Read the analog value from pin A0 (fire sensor)
   int range = map(sensorReading, sensorMin, sensorMax, 0, 3);  // Map the sensor reading to a range between 0 and 3
 

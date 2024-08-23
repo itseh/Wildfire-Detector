@@ -30,7 +30,7 @@ void setup()
 void loop()
 {
   delay(2000) ;
-  BTSerial.write("Sensor 2 \n") ;
+  BTSerial.write("Sensor 1 \n") ;
   int sensorReading  = analogRead(A0);
     int range = map(sensorReading,  sensorMin, sensorMax, 0, 3);
 

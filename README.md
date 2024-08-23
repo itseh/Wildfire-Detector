@@ -6,17 +6,14 @@ Slave Device:
 
 Arduino Uno
 HC-06 Bluetooth module
+HC-05 Bluetooth module
 DHT11 Temp/Humidity Sensor
-MQ-135 Gas Sensor
 Wind Vane Sensor
 Solar Panel and Lithium Battery (for power)
-Slave Devices:
-
-Arduino Nano
-HC-05 Bluetooth module
 Infrared Flame Sensors
 DHT11 Temp/Humidity Sensors
 MQ-135 Gas Sensors
+
 Communication Protocols Used:
 UART (Universal Asynchronous Receiver-Transmitter):
 
